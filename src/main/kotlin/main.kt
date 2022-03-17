@@ -5,10 +5,9 @@ fun transferFee(amount:Int):Double{
 }
 
 fun main(){
-    val amount1 = 15000000
-    val amount2 = 228000
+    val amount1 = 1500000
+    val amount2 = 1000
 
-    println("Комиссия за перевод ${amount1 / 100} рублей: ${transferFee(amount1) / 100} рублей")
-    println("Комиссия за перевод ${amount2 / 100} рублей: ${transferFee(amount2) / 100} рублей")
-
+    println("Комиссия за перевод ${amount1 / 100} рублей: ${transferFee(amount1)} копеек")
+    println("Комиссия за перевод ${amount2 / 100} рублей: ${transferFee(amount2)} копеек")
 }
